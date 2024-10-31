@@ -1,0 +1,336 @@
+{
+  "id": "4ff32efd-2bc8-4dde-90d6-100f0e783e05",
+  "version": "2.0",
+  "name": "monthlyReport",
+  "url": "https://service.kaonavi.jp",
+  "tests": [{
+    "id": "54aa7a46-2679-4872-956e-6691c899cf50",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "d6860a55-4862-4a12-b8c3-790ad2fb3555",
+    "name": "monthlyReport",
+    "commands": [{
+      "id": "ae9b396e-e027-40cc-9ac0-2fe9b5204ad6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a81213f-6ac4-41da-b610-ab46e72f32c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1934x1068",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f88156f-972e-42c1-ba74-b38c1c2504c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MyMenu__StyledButton-sc-221df3bc-1 .sc-fqkvVR",
+      "targets": [
+        ["css=.MyMenu__StyledButton-sc-221df3bc-1 .sc-fqkvVR", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.kaonavi.jp/user/k213805/image/display/little/202304/20230428185719_558_30602.jpg?Expires=1730373508&Signature=RxbVpmCtpJRJHgynAwXpg0ZWWW3U8qAQQmSl56~XI94YXGsRE8VXQRsr3758yOuZgBls4KjN2cKjjV7AaQFcnZMCIY0GNBm~sVOMS3ZWIo~PUu2YgAVi-z-vXDVE9teHnXBB9KTnG-BcRZ9ghc6liqBpijEdWlN5I39kbhiHOy5IT9EaCChQEKG27ZnTCwK7EsyPph9n4NEkCUG-e1RTGF4mxe-PMPwmmqex9yByYcbjcAqTRikYjFXk8ltmvyhsxZPph8emdcR0Pz6dyPSlStVxvTdq317zpH0G~WkdnRWUVC8US3ddhn8rho0fI3j6dSg~ZyA9OtNrTEPMyG64WQ__&Key-Pair-Id=APKAILWISEO4KXEUDZJQ')]", "xpath:img"],
+        ["xpath=//div[@id='global_header']/div/div[5]/div[8]/div/button/span/img", "xpath:idRelative"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3da9097d-a2c1-4404-885d-77cdab002d94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Link__StyledResetLink-sc-83ca04e5-0 > .MyMenuList__ListButton-sc-8abe0802-1",
+      "targets": [
+        ["css=.Link__StyledResetLink-sc-83ca04e5-0 > .MyMenuList__ListButton-sc-8abe0802-1", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='global_header']/div/div[5]/div[8]/ul/li[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'自分の情報を見る')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a5913e7-68c2-4c8d-8117-c27a69e407f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=pb_sheet_value_edit",
+      "targets": [
+        ["id=pb_sheet_value_edit", "id"],
+        ["css=#pb_sheet_value_edit", "css:finder"],
+        ["xpath=//button[@id='pb_sheet_value_edit']", "xpath:attributes"],
+        ["xpath=//div[@id='sheet_operation_button_area']/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdf57ed5-d819-4109-b1f0-15f5b267f5fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=pb_sheet_value_edit",
+      "targets": [
+        ["id=pb_sheet_value_edit", "id"],
+        ["css=#pb_sheet_value_edit", "css:finder"],
+        ["xpath=//button[@id='pb_sheet_value_edit']", "xpath:attributes"],
+        ["xpath=//div[@id='sheet_operation_button_area']/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6165c06b-bfcf-40e6-a4b6-9e20cc432b71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pb_sheet_value_add > svg",
+      "targets": [
+        ["css=#pb_sheet_value_add > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1f65f79-acea-4f12-adf2-953be87aaa38",
+      "comment": "",
+      "command": "click",
+      "target": "id=dp1730373211731",
+      "targets": [
+        ["id=dp1730373211731", "id"],
+        ["css=#dp1730373211731", "css:finder"],
+        ["xpath=//input[@id='dp1730373211731']", "xpath:attributes"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div/li/div[2]/input", "xpath:idRelative"],
+        ["xpath=//li/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9792901-e746-4cc7-8e8f-40928f618f64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'1')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b30c9b1a-c017-44ad-9626-b4c6e7997a1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cell_horizontal:nth-child(2) .display-block > .pb-add-input",
+      "targets": [
+        ["css=.cell_horizontal:nth-child(2) .display-block > .pb-add-input", "css:finder"],
+        ["xpath=(//input[@name=''])[66]", "xpath:attributes"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div/li[2]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff06c78f-9250-4f43-a723-42ee696c18fa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.cell_horizontal:nth-child(2) .display-block > .pb-add-input",
+      "targets": [
+        ["css=.cell_horizontal:nth-child(2) .display-block > .pb-add-input", "css:finder"],
+        ["xpath=(//input[@name=''])[66]", "xpath:attributes"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div/li[2]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "野村総合研究所→NSS日本総合システム→ケアリッツ"
+    }, {
+      "id": "bd419b89-9fc5-4eda-bedb-f20364f7db13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cell_horizontal:nth-child(3) .pb-add-input",
+      "targets": [
+        ["css=.cell_horizontal:nth-child(3) .pb-add-input", "css:finder"],
+        ["xpath=(//input[@name=''])[67]", "xpath:attributes"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div/li[3]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "774a03d4-f117-4026-91c9-cbab621643cd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.cell_horizontal:nth-child(3) .pb-add-input",
+      "targets": [
+        ["css=.cell_horizontal:nth-child(3) .pb-add-input", "css:finder"],
+        ["xpath=(//input[@name=''])[67]", "xpath:attributes"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div/li[3]/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div[2]/span/input", "xpath:position"]
+      ],
+      "value": "2024/11"
+    }, {
+      "id": "92629ba7-8a8e-4929-a1b0-85c1f6f7b9c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cell_horizontal:nth-child(4) > .pb-add",
+      "targets": [
+        ["css=.cell_horizontal:nth-child(4) > .pb-add", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div/li[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/li[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ddc8f4-af93-45e6-aae0-f051806b1abe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.empty-value > .opt-value-name",
+      "targets": [
+        ["css=.empty-value > .opt-value-name", "css:finder"],
+        ["xpath=//div[@id='kaonaviPulldownWithSearch_box_42']/div/div", "xpath:idRelative"],
+        ["xpath=//li[4]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6786e344-afba-4d96-8807-56a4b657a429",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ps-container > .kao-list > .kao-item:nth-child(3) .opt-value-name",
+      "targets": [
+        ["css=.ps-container > .kao-list > .kao-item:nth-child(3) .opt-value-name", "css:finder"],
+        ["xpath=//div[@id='kaonaviPulldownWithSearch_drop_box_42']/div[2]/ul/li[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/ul/li[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "549b1e52-5fd3-4601-af97-05cc2cfcf1ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(1) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(1) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[2]/li/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//li/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96460ccb-be62-450e-8674-fc89f5fccf1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(1) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(1) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[2]/li/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//li/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92789c32-c5d8-4791-bfa9-fe0aa16e0003",
+      "comment": "",
+      "command": "type",
+      "target": "css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(1) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(1) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[2]/li/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//li/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "java,angular,ag-grid,Gitlab,confluence,postman"
+    }, {
+      "id": "801f90d0-c03b-46fc-aa95-1a9ef5380998",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(2) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(2) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[2]/li[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbed0d75-e88d-48c2-90d1-5eea7d929e17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54bb389a-f933-4233-8f4e-aad711d0524d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(2) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(4) > .cell_horizontal:nth-child(2) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[2]/li[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//li[2]/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "画面修正\\n内連テストケース作成\\n内連テスト実施\\n総合テストケース作成\\n総合テスト実施\\n"
+    }, {
+      "id": "5d99c507-b4ae-4f9d-be0e-838801bf4802",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-cells:nth-child(6) > .cell_horizontal:nth-child(1) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(6) > .cell_horizontal:nth-child(1) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[3]/li/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/li/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b8f601a-72fa-4984-91f6-2658a3e3e04d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1802417a-b19b-4648-b0fa-6431297e80c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row-cells:nth-child(6) > .cell_horizontal:nth-child(1) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(6) > .cell_horizontal:nth-child(1) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[3]/li/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/li/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b799a23-b581-4893-8e78-edf5c208229b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.row-cells:nth-child(6) > .cell_horizontal:nth-child(1) .textarea",
+      "targets": [
+        ["css=.row-cells:nth-child(6) > .cell_horizontal:nth-child(1) .textarea", "css:finder"],
+        ["xpath=//div[@id='pb_sheet_input_area']/div/ul/div[3]/li/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//div[3]/li/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "所感\\n・今月から総合テストの打鍵が始まり、一日を通してタイムテーブル通りにテストを実施していくことになります。\\n総合テスト環境が使える日が決まっていてるので前日にしっかり前準備を意識しながら作業をしてます。\\n\\nKeep\\n・現場の方とコミュニケーションを積極的にとり作業をしてました。\\nTry\\n・積極的に自社メンバーに作業の指示を出して作業を分担して進めることを心掛けてやってました。\\nProblem"
+    }, {
+      "id": "154c110c-5d8b-4ebc-a9d5-2448dd2a100c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sheetRecordAddModal .remodal-confirm",
+      "targets": [
+        ["css=#sheetRecordAddModal .remodal-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[71]", "xpath:attributes"],
+        ["xpath=//div[@id='sheetRecordAddModal']/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[33]/div/div[3]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'追加')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5802c639-95af-4e0f-bfb8-34ae3d467026",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.disabled",
+      "targets": [
+        ["css=.disabled", "css:finder"],
+        ["xpath=(//button[@type='button'])[61]", "xpath:attributes"],
+        ["xpath=//div[@id='sheetRecordAddModal']/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[33]/div/div[3]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'追加')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "724976a5-4027-40d1-b15d-a7f5d2d6d4c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54aa7a46-2679-4872-956e-6691c899cf50"]
+  }],
+  "urls": ["https://service.kaonavi.jp/"],
+  "plugins": []
+}
