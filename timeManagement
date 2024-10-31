@@ -1,0 +1,262 @@
+{
+  "id": "1a147036-e51f-4886-8037-d36dfdaf5c0c",
+  "version": "2.0",
+  "name": "time management",
+  "url": "https://p.ieyasu.co",
+  "tests": [{
+    "id": "35087c9a-0161-4f8b-9637-9fe953cf9f46",
+    "name": "1",
+    "commands": [{
+      "id": "c66629c4-86f4-4f8b-9859-92a6ce502a93",
+      "comment": "",
+      "command": "open",
+      "target": "/careritzit/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92ad3239-7b2b-476c-b575-e76355878317",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1934x1068",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "715d9924-06fe-4e41-bf56-7451b9a743e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_login_id",
+      "targets": [
+        ["id=user_login_id", "id"],
+        ["name=user[login_id]", "name"],
+        ["css=#user_login_id", "css:finder"],
+        ["xpath=//input[@id='user_login_id']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e08af4bc-750f-4986-b586-cfa8555c4970",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_login_id",
+      "targets": [
+        ["id=user_login_id", "id"],
+        ["name=user[login_id]", "name"],
+        ["css=#user_login_id", "css:finder"],
+        ["xpath=//input[@id='user_login_id']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "shien.so@careritztc.co.jp"
+    }, {
+      "id": "5392bb4c-dd85-4e2f-808e-e43386dd2b89",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password",
+      "targets": [
+        ["id=user_password", "id"],
+        ["name=user[password]", "name"],
+        ["css=#user_password", "css:finder"],
+        ["xpath=//input[@id='user_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "Cao19930222"
+    }, {
+      "id": "bd7d3a8a-a9c7-445b-9ea5-273a73526619",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.btnSubmit", "css:finder"],
+        ["xpath=//input[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='new_user']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "370b5834-7ee6-451f-8e98-8000f86b1b2f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#work_navi > .text",
+      "targets": [
+        ["css=#work_navi > .text", "css:finder"],
+        ["xpath=//a[@id='work_navi']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'日次勤怠')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fbf5af2-4479-476a-9dc3-c8e7314c7a63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#work_navi > .text",
+      "targets": [
+        ["css=#work_navi > .text", "css:finder"],
+        ["xpath=//a[@id='work_navi']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'日次勤怠')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d84b586-0fc2-4592-a954-bb197513214b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#work_navi > .text",
+      "targets": [
+        ["css=#work_navi > .text", "css:finder"],
+        ["xpath=//a[@id='work_navi']/span[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'日次勤怠')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf5d4f32-53a9-4dc8-9f8f-79cef8512587",
+      "comment": "",
+      "command": "click",
+      "target": "id=next_date",
+      "targets": [
+        ["id=next_date", "id"],
+        ["css=#next_date", "css:finder"],
+        ["xpath=//input[@id='next_date']", "xpath:attributes"],
+        ["xpath=//div[@id='mainInner']/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b64f30-3d6c-4a95-a4ee-b9c63ef0d212",
+      "comment": "",
+      "command": "click",
+      "target": "css=#work_edit_514381 img",
+      "targets": [
+        ["css=#work_edit_514381 img", "css:finder"],
+        ["xpath=//div[@id='work_edit_514381']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "235425af-315b-4685-8113-6c055750c0ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=work_start_at_str",
+      "targets": [
+        ["id=work_start_at_str", "id"],
+        ["name=work[start_at_str]", "name"],
+        ["css=#work_start_at_str", "css:finder"],
+        ["xpath=//input[@id='work_start_at_str']", "xpath:attributes"],
+        ["xpath=//form[@id='work_form']/table[2]/tbody/tr[3]/td/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b1145aa-3577-4432-b65d-5aca29e1cc97",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ui-timepicker-selected",
+      "targets": [
+        ["css=.ui-timepicker-selected", "css:finder"],
+        ["xpath=//body[@id='pageIndex']/div[2]/ul/li[103]", "xpath:idRelative"],
+        ["xpath=//li[103]", "xpath:position"],
+        ["xpath=//li[contains(.,'08:30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93d987ca-c825-4aeb-9252-97abf6da93b0",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=work_break_2_start_at_str",
+      "targets": [
+        ["id=work_break_2_start_at_str", "id"],
+        ["name=work[break_2_start_at_str]", "name"],
+        ["css=#work_break_2_start_at_str", "css:finder"],
+        ["xpath=//input[@id='work_break_2_start_at_str']", "xpath:attributes"],
+        ["xpath=//tr[@id='break_2_tr']/td/p/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1170754a-07e1-4220-b2de-b27d19cc9fd4",
+      "comment": "",
+      "command": "click",
+      "target": "id=pageIndex",
+      "targets": [
+        ["id=pageIndex", "id"],
+        ["css=#pageIndex", "css:finder"],
+        ["xpath=//body[@id='pageIndex']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "338f13f3-eca9-4e88-b591-9b71aa9ad3ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=work_end_at_str",
+      "targets": [
+        ["id=work_end_at_str", "id"],
+        ["name=work[end_at_str]", "name"],
+        ["css=#work_end_at_str", "css:finder"],
+        ["xpath=//input[@id='work_end_at_str']", "xpath:attributes"],
+        ["xpath=//form[@id='work_form']/table[2]/tbody/tr[3]/td/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23a2f2a5-f10d-4953-a0b6-0afbc8178f99",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ui-timepicker-selected:nth-child(223)",
+      "targets": [
+        ["css=.ui-timepicker-selected:nth-child(223)", "css:finder"],
+        ["xpath=//body[@id='pageIndex']/div[3]/ul/li[223]", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li[223]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a9079a-65c6-4c8b-903c-781b52504f79",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.break_tr:nth-child(4) > .timeTable",
+      "targets": [
+        ["css=.break_tr:nth-child(4) > .timeTable", "css:finder"],
+        ["xpath=//form[@id='work_form']/table[2]/tbody/tr[4]/td", "xpath:idRelative"],
+        ["xpath=//tr[4]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28b23ce-1d3a-424d-b347-8e2dd19e8d60",
+      "comment": "",
+      "command": "click",
+      "target": "id=pageIndex",
+      "targets": [
+        ["id=pageIndex", "id"],
+        ["css=#pageIndex", "css:finder"],
+        ["xpath=//body[@id='pageIndex']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf20fc4-7905-4803-a369-2804eab0340a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='commit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='work_form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "214a917b-45f6-4c41-b96e-4b1b75def286",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["35087c9a-0161-4f8b-9637-9fe953cf9f46"]
+  }],
+  "urls": ["https://p.ieyasu.co/"],
+  "plugins": []
+}
